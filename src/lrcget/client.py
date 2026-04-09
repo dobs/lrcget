@@ -9,7 +9,7 @@ import httpx
 from .models import Challenge, LyricsResult
 
 BASE_URL = "https://lrclib.net/api"
-DEFAULT_USER_AGENT = "lrcget/0.1.0 (https://github.com/danielobrien/lrcget)"
+DEFAULT_USER_AGENT = "lrcget/0.1.0 (https://github.com/dobs/lrcget)"
 
 
 class LrclibError(Exception):
